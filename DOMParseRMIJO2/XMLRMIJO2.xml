@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><magicVerseny xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="versenyXMLSchemaRMIJO2.xsd">
+<verseny biroID="1" id="1">
+	<formatum>Modern</formatum>
+	<helyszin>Ghent, Belgium, Flanders Expo</helyszin>
+	<korok_szama>3</korok_szama>
+</verseny>
+<jatek jatekosID="1" versenyID="1">
+	<idotartam>50 perc</idotartam>
+</jatek>
+<jatek jatekosID="2" versenyID="1">
+	<idotartam>21 perc</idotartam>
+</jatek>
+<jatek jatekosID="3" versenyID="1">
+	<idotartam>13 perc</idotartam>
+</jatek>
+<jatek jatekosID="4" versenyID="1">
+	<idotartam>0 perc</idotartam>
+</jatek>
+<jatek jatekosID="5" versenyID="1">
+	<idotartam>42 perc</idotartam>
+</jatek>
+<jatek jatekosID="6" versenyID="1">
+	<idotartam>7 perc</idotartam>
+</jatek>
+<jatek jatekosID="7" versenyID="1">
+	<idotartam>28 perc</idotartam>
+</jatek>
+<jatek jatekosID="8" versenyID="1">
+	<idotartam>1 perc</idotartam>
+</jatek>
+<biro id="1">
+<Nev> Jeremy Edimborugh</Nev>
+<Szint>3</Szint>
+</biro>
+
+<jatekos id="1" pakliID="1" versenyID="1">
+	<Nev>Karsten Borresen </Nev>
+	<szemelyes_adatok>
+		<Szul_datum>1990-06-15</Szul_datum>
+		<Sul_orszag>Norvégia</Sul_orszag>
+		<Telefonszam>00471672367</Telefonszam>
+	</szemelyes_adatok>
+</jatekos>
+<jatekos id="2" pakliID="2" versenyID="1">
+	<Nev>Aleksander Vlakovits</Nev>
+	<szemelyes_adatok>
+		<Szul_datum>1989-11-25</Szul_datum>
+		<Sul_orszag>Ukrajna</Sul_orszag>
+		<Telefonszam>+36018462471</Telefonszam>
+	</szemelyes_adatok>
+</jatekos>
+<jatekos id="3" pakliID="3" versenyID="1">
+	<Nev>Szalmás Balázs</Nev>
+	<szemelyes_adatok>		
+		<Szul_datum>2001-02-09</Szul_datum>
+		<Sul_orszag>Magyarország</Sul_orszag>
+		<Telefonszam>+36307273956</Telefonszam>
+	</szemelyes_adatok>
+</jatekos>
+<jatekos id="4" pakliID="4" versenyID="1">
+	<Nev>Markus Highley</Nev>
+	<szemelyes_adatok>
+		<Szul_datum>1995-05-23</Szul_datum>
+		<Sul_orszag>Great Britain</Sul_orszag>
+		<Telefonszam>+4440115679</Telefonszam>
+	</szemelyes_adatok>
+</jatekos>
+<jatekos id="5" pakliID="5" versenyID="1">
+	<Nev>Mark Rosewater</Nev>
+	<szemelyes_adatok>
+		<Szul_datum>1967-05-25</Szul_datum>
+		<Sul_orszag>Egyesült Államok</Sul_orszag>
+		<Telefonszam>+16751639351</Telefonszam>
+	</szemelyes_adatok>
+</jatekos>
+<jatekos id="6" pakliID="6" versenyID="1">
+	<Nev>Beringar Werner</Nev>
+	<szemelyes_adatok>
+		<Szul_datum>2002-07-11</Szul_datum>
+		<Sul_orszag>Németország</Sul_orszag>
+		<Telefonszam>+46112567163</Telefonszam>
+	</szemelyes_adatok>
+</jatekos>
+<jatekos id="7" pakliID="6" versenyID="1">
+	<Nev>Ota Hideki</Nev>
+	<szemelyes_adatok>
+		<Szul_datum>1990-08-15</Szul_datum>
+		<Sul_orszag>Japán</Sul_orszag>
+		<Telefonszam>+81151631643</Telefonszam>
+	</szemelyes_adatok>
+</jatekos>
+<jatekos id="8" pakliID="2" versenyID="1">
+	<Nev>Farkas Bence</Nev>
+	<szemelyes_adatok>
+		<Szul_datum>1994-08-14</Szul_datum>
+		<Sul_orszag>Magyarország</Sul_orszag>
+		<Telefonszam>+364062464365</Telefonszam>
+	</szemelyes_adatok>
+</jatekos>
+
+<pakli id="1">
+	<formatum>
+		<Nev>Murktide Tempo</Nev>
+		<Ban_lista>https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted</Ban_lista>
+		<Lapszam>60</Lapszam>
+	</formatum>
+</pakli>
+<pakli id="2">
+	<formatum>
+		<Nev>Death's Shadow</Nev>
+		<Ban_lista>https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted</Ban_lista>
+		<Lapszam>60</Lapszam>
+	</formatum>
+</pakli>
+<pakli id="3">
+	<formatum>
+		<Nev>Azorious Control</Nev>
+		<Ban_lista>https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted</Ban_lista>
+		<Lapszam>60</Lapszam>
+	</formatum>
+</pakli>
+<pakli id="4">
+	<formatum>
+		<Nev>Amulet Titan</Nev>
+		<Ban_lista>https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted</Ban_lista>
+		<Lapszam>60</Lapszam>
+	</formatum>
+</pakli>
+<pakli id="5">
+	<formatum>
+		<Nev>Burn</Nev>
+		<Ban_lista>https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted</Ban_lista>
+		<Lapszam>60</Lapszam>
+	</formatum>
+</pakli>
+<pakli id="6">
+	<formatum>
+		<Nev>Jund</Nev>
+		<Ban_lista>https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted</Ban_lista>
+		<Lapszam>60</Lapszam>
+	</formatum>
+</pakli>
+
+
+<lap id="1" pakliID="1">
+	<Nev>Raganvan, Nimble Pilferer</Nev>
+	<Szin>Piros</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Creature</Tipus>
+</lap>
+<lap id="2" pakliID="1">
+	<Nev>Brazen Borrower</Nev>
+	<Szin>Kék</Szin>
+	<Darabszam>1</Darabszam>
+	<Tipus>Creature//Sorcery</Tipus>
+</lap>
+<lap id="3" pakliID="1">
+	<Nev>Consider</Nev>
+	<Szin>Kék</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Instant</Tipus>
+</lap>
+<lap id="4" pakliID="1">
+	<Nev>Expressive Iteration</Nev>
+	<Szin>Kék/Piros</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Sorcery</Tipus>
+</lap>
+<lap id="5" pakliID="1">
+	<Nev>Mishra's Bauble</Nev>
+	<Szin>Színtelen</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Artifact</Tipus>
+</lap>
+<lap id="6" pakliID="1">
+	<Nev>Spirebluff Canal</Nev>
+	<Szin>Színetelen</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Land</Tipus>
+</lap>
+<lap id="7" pakliID="2">
+	<Nev>Death's Shadow</Nev>
+	<Szin>Fekete</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Creature</Tipus>
+</lap>
+<lap id="8" pakliID="2">
+	<Nev>Kroxa, Titan of Death's Hunger</Nev>
+	<Szin>Fekete/Piros</Szin>
+	<Darabszam>2</Darabszam>
+	<Tipus>Lény</Tipus>
+</lap>
+<lap id="9" pakliID="2">
+	<Nev>Thoughtseize</Nev>
+	<Szin>Fekete</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Sorcery</Tipus>
+</lap>
+<lap id="10" pakliID="2">
+	<Nev>Drown in the Loch</Nev>
+	<Szin>Kék/Fekete</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Instant</Tipus>
+</lap>
+<lap id="11" pakliID="2">
+	<Nev>Dress Down</Nev>
+	<Szin>Kék</Szin>
+	<Darabszam>2</Darabszam>
+	<Tipus>Enchantment</Tipus>
+</lap>
+<lap id="12" pakliID="2">
+	<Nev>Kolaghan's Command</Nev>
+	<Szin>Fekete/Piros</Szin>
+	<Darabszam>1</Darabszam>
+	<Tipus>Instant</Tipus>
+</lap>
+<lap id="13" pakliID="3">
+	<Nev>Solitude</Nev>
+	<Szin>Fehér</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Creature</Tipus>
+</lap>
+<lap id="14" pakliID="3">
+	<Nev>Teferi, Time Raveler</Nev>
+	<Szin>Fehér/Kék</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Planeswalker - Teferi</Tipus>
+</lap>
+<lap id="15" pakliID="3">
+	<Nev>Teferi, Hero of Dominaria</Nev>
+	<Szin>Fehér/Kék</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Planeswalker - Teferi</Tipus>
+</lap>
+<lap id="16" pakliID="3">
+	<Nev>Prismatic Ending</Nev>
+	<Szin>Fehér</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Sorcery</Tipus>
+</lap>
+<lap id="17" pakliID="3">
+	<Nev>Fire//Ice</Nev>
+	<Szin>Kék/Piros</Szin>
+	<Darabszam>2</Darabszam>
+	<Tipus>Instant//Instant</Tipus>
+</lap>
+<lap id="18" pakliID="3">
+	<Nev>Counterspell</Nev>
+	<Szin>Kék</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Instant</Tipus>
+</lap>
+<lap id="19" pakliID="4">
+	<Nev>Primeval Titan</Nev>
+	<Szin>Zöld</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Creature</Tipus>
+</lap>
+<lap id="20" pakliID="4">
+	<Nev>Amulet of Vigor</Nev>
+	<Szin>Színetelen</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Artifact</Tipus>
+</lap>
+<lap id="21" pakliID="4">
+	<Nev>Summoner's Pact</Nev>
+	<Szin>Zöld</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Instant</Tipus>
+</lap>
+<lap id="22" pakliID="4">
+	<Nev>Dryad of the Ilysan Grove</Nev>
+	<Szin>Zöld</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Enchantment Creature</Tipus>
+</lap>
+<lap id="23" pakliID="4">
+	<Nev>Azusa, Lost but Seeking</Nev>
+	<Szin>Zöld</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Creature</Tipus>
+</lap>
+<lap id="24" pakliID="4">
+	<Nev>Explore</Nev>
+	<Szin>Zöld</Szin>
+	<Darabszam>3</Darabszam>
+	<Tipus>Sorcery</Tipus>
+</lap>
+<lap id="25" pakliID="5">
+	<Nev>Goblin Guide</Nev>
+	<Szin>Piros</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Creature</Tipus>
+</lap>
+<lap id="26" pakliID="5">
+	<Nev>Monastery Swiftspear</Nev>
+	<Szin>Piros</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Creature</Tipus>
+</lap>
+<lap id="27" pakliID="5">
+	<Nev>Eidolon of the Great Revel</Nev>
+	<Szin>Piros</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Enchantment Creature</Tipus>
+</lap>
+<lap id="28" pakliID="5">
+	<Nev>Lava Spike</Nev>
+	<Szin>Piros</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Sorcery</Tipus>
+</lap>
+<lap id="29" pakliID="5">
+	<Nev>Lightning Bolt</Nev>
+	<Szin>Piros</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Instant</Tipus>
+</lap>
+<lap id="30" pakliID="5">
+	<Nev>Boros Charm</Nev>
+	<Szin>Piros/Fehér</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Sorcery</Tipus>
+</lap>
+<lap id="31" pakliID="6">
+	<Nev>Tarmogoyf</Nev>
+	<Szin>Zöld</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Creature</Tipus>
+</lap>
+<lap id="32" pakliID="6">
+	<Nev>Iquisiton of Kozilek</Nev>
+	<Szin>Fekete</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Sorcery</Tipus>
+</lap>
+<lap id="33" pakliID="6">
+	<Nev>Unholy Heat</Nev>
+	<Szin>Piros</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Instant</Tipus>
+</lap>
+<lap id="34" pakliID="6">
+	<Nev>Abrupt Decay</Nev>
+	<Szin>Fekete/Zöld</Szin>
+	<Darabszam>1</Darabszam>
+	<Tipus>Instant</Tipus>
+</lap>
+<lap id="35" pakliID="6">
+	<Nev>Expedition Map</Nev>
+	<Szin>Színtelen</Szin>
+	<Darabszam>1</Darabszam>
+	<Tipus>Artifact</Tipus>
+</lap>
+<lap id="36" pakliID="6">
+	<Nev>Wooded Foothill</Nev>
+	<Szin>Színtelen</Szin>
+	<Darabszam>4</Darabszam>
+	<Tipus>Land</Tipus>
+</lap>
+</magicVerseny>

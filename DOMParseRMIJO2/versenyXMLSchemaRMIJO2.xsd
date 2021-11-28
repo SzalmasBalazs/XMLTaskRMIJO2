@@ -1,0 +1,134 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="magicVerseny">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="verseny" type="versenyType"/>
+					<xs:element name="jatek" type="jatekType"/>
+					<xs:element name="biro" type="biroType"/>
+					<xs:element name="jatekos" type="jatekosType"/>
+					<xs:element name="pakli" type="pakliType"/>
+					<xs:element name="lap" type="lapType"/>
+				</xs:choice>
+			</xs:sequence>
+		</xs:complexType>
+		
+		<xs:key name="versenyId_PK">
+			<xs:selector xpath="verseny"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="biroId_PK">
+			<xs:selector xpath="biro"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="jatekosId_PK">
+			<xs:selector xpath="jatekosok/jatekos"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="pakliId_PK">
+			<xs:selector xpath="paklik/pakli"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="lapId_PK">
+			<xs:selector xpath="lapok/lap"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:keyref name="versenyId_FK" refer="versenyId_PK">
+			<xs:selector xpath="jatekosok/jatekos"/>
+			<xs:field xpath="@versenyID"/>
+		</xs:keyref>
+		<xs:keyref name="biroId_FK" refer="biroId_PK">
+			<xs:selector xpath="verseny"/>
+			<xs:field xpath="@biroID"/>
+		</xs:keyref>
+		<xs:keyref name="jatekosId_FK" refer="jatekosId_PK">
+			<xs:selector xpath="jatek"/>
+			<xs:field xpath="@jatekosID1"/>
+		</xs:keyref>
+		<xs:keyref name="pakliId_FK" refer="pakliId_PK">
+			<xs:selector xpath="jatekosok/jatekos"/>
+			<xs:field xpath="@pakliID"/>
+		</xs:keyref>
+			<xs:keyref name="lapId_FK" refer="lapId_PK">
+			<xs:selector xpath="lapok/lap"/>
+			<xs:field xpath="@pakliID"/>
+		</xs:keyref>
+	</xs:element>
+	
+	<xs:complexType name="versenyType">
+	<xs:sequence>
+		<xs:element name="formatum"  type="xs:string"/>
+		<xs:element name="helyszin"  type="xs:string"/>
+		<xs:element name="korok_szama"  type="xs:string"/>
+	</xs:sequence>
+		<xs:attribute name="biroID" type="xs:unsignedByte" use="required"/>
+		<xs:attribute name="id" type="xs:unsignedByte" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="jatekType">
+		<xs:sequence>
+		<xs:element name="idotartam"  type="xs:string"/>
+	</xs:sequence>
+		<xs:attribute name="jatekosID" type="xs:unsignedByte" use="required"/>
+		<xs:attribute name="versenyID" type="xs:unsignedByte" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="biroType">
+	<xs:sequence>
+		<xs:element name="Nev"  type="xs:string"/>
+		<xs:element name="Szint" type="xs:integer"/>
+	</xs:sequence>
+		<xs:attribute name="id" type="xs:unsignedByte" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="jatekosType">
+	<xs:sequence>
+		<xs:element name="Nev"  type="xs:string"/>
+		<xs:element name="szemelyes_adatok"/>
+	</xs:sequence>
+		<xs:attribute name="id" type="xs:unsignedByte" use="required"/>
+		<xs:attribute name="pakliID" type="xs:unsignedByte" use="required"/>
+		<xs:attribute name="versenyID" type="xs:unsignedByte" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="pakliType">
+		<xs:sequence>
+			<xs:element name="formatum" type="formatumType"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:unsignedByte" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="lapType">
+		<xs:sequence>
+			<xs:element name="Nev" type="xs:string"/>
+			<xs:element name="Szin"  type="xs:string"/>
+			<xs:element name="Darabszam" type="xs:integer"/>
+			<xs:element name="Tipus"  type="xs:string"/>
+		</xs:sequence>
+			<xs:attribute name="id" type="xs:unsignedByte" use="required"/>
+			<xs:attribute name="pakliID" type="xs:unsignedByte" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="formatumType">
+		<xs:sequence>
+			<xs:element name="Nev" type="xs:string"/>
+			<xs:element name="Ban_lista" type="xs:string"/>
+			<xs:element name="Lapszam" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="szemelyes_adatok">
+		<xs:sequence>
+			<xs:element name="Szul_datum" type="xs:integer"/>
+			<xs:element name="Szul_orszag" type="xs:string"/>
+			<xs:element name="Telefonszam" type="telType"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:simpleType name="telType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{2}-\d{3}-\d{2}-\d{2}"/>
+            <xs:pattern value="\d{2}-\d{3}-\d{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
