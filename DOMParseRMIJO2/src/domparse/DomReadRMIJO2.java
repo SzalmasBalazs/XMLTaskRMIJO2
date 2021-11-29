@@ -107,7 +107,27 @@ public class DomReadRMIJO2 {
 					System.out.println("Pakli adatok: \t Pakli név: \t"+nev+
 							"\n\tBan Lista: \t"+banlist+
 							"\n\tLapszám: \t"+lapszam);
-					ReadLapByPakliID(doc,pakliID);
+					
+				}
+			}
+		}
+		
+	}
+	public static void ReadPakliAndLapByID(Document doc, String pakliID) {
+		
+		NodeList nList =doc.getElementsByTagName("pakli");
+		for(int i = 0;i<nList.getLength();i++) {
+			Node nNode = nList.item(i);
+			Element element = (Element) nNode;
+			if(nNode.getNodeType() == Node.ELEMENT_NODE) {
+				if(element.getAttribute("id").equals(pakliID)) {
+					String nev = element.getElementsByTagName("Nev").item(0).getTextContent();
+					String banlist = element.getElementsByTagName("Ban_lista").item(0).getTextContent();
+					String lapszam = element.getElementsByTagName("Lapszam").item(0).getTextContent();
+					System.out.println("Pakli adatok: \t Pakli név: \t"+nev+
+							"\n\tBan Lista: \t"+banlist+
+							"\n\tLapszám: \t"+lapszam);
+					ReadLapByPakliID(doc, pakliID);
 				}
 			}
 		}

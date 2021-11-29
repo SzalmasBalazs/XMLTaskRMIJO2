@@ -90,7 +90,7 @@ public class DomQueryRMIJO2 {
 	}
 	//A kiválasztott játékos paklijának az adatainak kiírása.
 	private static void LoadPakliQuery(Document doc, String id) throws TransformerException {
-		NodeList nodeList = doc.getElementsByTagName("akli");
+		NodeList nodeList = doc.getElementsByTagName("pakli");
 		int pakli = 0;
 		for (int i = 0; i < nodeList.getLength(); i++) {
 			Node nNode = nodeList.item(i);

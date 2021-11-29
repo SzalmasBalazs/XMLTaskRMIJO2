@@ -146,7 +146,7 @@ public class DomModifyRMIJO2 {
 			System.out.print("Lapszam: ");
 			String lapszam = sc.nextLine();
 		sc.close();
-		NodeList nodeList = doc.getElementsByTagName("jatekos");
+		NodeList nodeList = doc.getElementsByTagName("pakli");
 		for (int i = 0; i < nodeList.getLength(); i++) {
 			Node nNode = nodeList.item(i);
 			if (nNode.getNodeType() == Node.ELEMENT_NODE) {
